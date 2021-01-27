@@ -6,7 +6,7 @@ public class crypt {
 	{
 	    final String secretKey = "12345678!";
 	     
-	    String originalString = "holaShurPrimoh";
+	    String originalString = "contraseña";
 	    String encryptedString = aes.encrypt(originalString, secretKey) ;
 	    String decryptedString = aes.decrypt(encryptedString, secretKey) ;
 	     
